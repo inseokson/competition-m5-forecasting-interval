@@ -1,0 +1,7 @@
+black
+isort
+pandas
+numpy
+polars
+matplotlib
+scikit-learn

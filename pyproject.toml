@@ -1,0 +1,22 @@
+[tool.black]
+line_length = 120
+exclude = '''
+(
+  /(
+    \.eggs
+    | \.git
+    | \.mypy_cache
+    | \.pytest_cache
+    | \.venv
+    | __pycache__
+    | _build
+    | build
+    | dist
+  )
+)
+'''
+
+[tool.isort]
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
