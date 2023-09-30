@@ -15,7 +15,7 @@
 ### calender.csv
 |Column|Description|Example|
 |------|-----------|-------|
-|date|날짜(포맷: %Y-%m-%d|2011-01-29|
+|date|날짜(포맷: %Y-%m-%d)|2011-01-29|
 |wm_yr_wk|주 ID|11101|
 |weekday|요일|Saturday|
 |wday|일 ID(토요일:1 ~ 금요일:7)|1|
@@ -53,7 +53,7 @@
 |Column|Description|Example|
 |------|-----------|-------|
 |id|\[ID Prefix by aggregation level\]\_\[Prediction quartile\]\_\[validation/evaluation\]*|HOBBIES_1_001_CA_1_0.005_validation|
-|F\[Forecast Day\]|Forecast Day에서 ID에 해당하는 예측값||
+|F\[Forecast Day\]|ID에 해당하는 Forecast Day 시점 예측값||
 
 \* 아래 내용 참조
 
